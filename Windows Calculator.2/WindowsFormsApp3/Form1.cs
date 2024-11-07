@@ -87,8 +87,14 @@ namespace WindowsFormsApp3
         //    this.textBox1.Text+=input;
         //}
 
+        /// <summary>
+        /// This Methode Clear Current number
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void c_Click(object sender, EventArgs e)
         {
+
             this.textBox1.Text = "";
             this.input = string.Empty;
             this.oprand1 = string.Empty;
